@@ -1,0 +1,6 @@
+criterion,datasets,datasets_named
+Better than k-means++ by > 0.005 ARI,5,"dermatology, musk, pendigits, satimage, segment"
+Within +/-0.005 ARI of k-means++,4,"isolet, letter, wdbc, wine_quality"
+Worse than k-means++ by > 0.005 ARI,4,"synth_imbalanced, synthetic_control, vehicle, yeast"
+Better than k-means++ by > 0.010 ARI,5,"dermatology, musk, pendigits, satimage, segment"
+Worse than k-means++ by > 0.010 ARI,2,"synth_imbalanced, synthetic_control"

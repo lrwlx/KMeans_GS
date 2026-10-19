@@ -1,0 +1,11 @@
+method,method_label,mean_ari,geomean_time,on_pareto_front,dominated_by
+kmeans_gs,KMeans-GS,0.3492426845181195,0.0140089204765042,True,
+kmeanspp,k-means++,0.3456579198998029,0.0122422487348236,False,MiniBatchKMeans
+kmeans,K-means (random),0.3450095781754625,0.0110559371837299,False,MiniBatchKMeans
+kmeans_gs_g,KMeans-GS-G,0.3437751329417402,0.0141137150006111,False,"KMeans-GS, k-means++, K-means (random), MiniBatchKMeans, AFK-MC²"
+mbkmeans,MiniBatchKMeans,0.346450895003651,0.008836913885865,True,
+kmeans_par,k-means∥,0.33642311853462026,0.0144918482971594,False,"KMeans-GS, k-means++, K-means (random), KMeans-GS-G, MiniBatchKMeans, AFK-MC²"
+afkmc2,AFK-MC²,0.3441141818522606,0.0128653957996287,False,"k-means++, K-means (random), MiniBatchKMeans"
+birch,BIRCH,0.34139745826421913,0.0469386922592167,False,"KMeans-GS, k-means++, K-means (random), KMeans-GS-G, MiniBatchKMeans, AFK-MC²"
+gmm,Gaussian mixture,0.33011016497535045,0.0823553250575853,False,"KMeans-GS, k-means++, K-means (random), KMeans-GS-G, MiniBatchKMeans, k-means∥, AFK-MC², BIRCH"
+dbscan,DBSCAN,0.20719458537611307,0.0463115470664279,False,"KMeans-GS, k-means++, K-means (random), KMeans-GS-G, MiniBatchKMeans, k-means∥, AFK-MC²"

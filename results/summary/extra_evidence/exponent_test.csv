@@ -1,0 +1,3 @@
+cost,comparison,N_exponent_difference,N_exponent_ci_low,N_exponent_ci_high,K_exponent_difference,K_exponent_ci_low,K_exponent_ci_high,bootstrap_reps
+Seeding time,KMeans-GS minus k-means++,-0.34653564377735857,-0.5670435184214425,-0.14295114552883076,-1.1398774193448653,-1.444054737501686,-0.8167295372228922,10000
+Total time,KMeans-GS minus k-means++,-0.013648237351424916,-0.10290122882448016,0.07342954951791898,-0.1542163989456743,-0.27651039615733847,0.018260742021014315,10000

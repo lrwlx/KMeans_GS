@@ -1,0 +1,2 @@
+test,n_datasets,n_methods,statistic,df,p_value,kendall_w
+Friedman rank test,13,10,23.181818181818187,9,0.005800638228100066,0.19813519813519817

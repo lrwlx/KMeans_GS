@@ -1,0 +1,71 @@
+subgroup,datasets,n_datasets,method,method_label,mean_ari,mean_rank,vs_kmeanspp,vs_random,vs_gs_g
+K <= 6,"dermatology, musk, satimage, synthetic_control, vehicle, wdbc, wine_quality",7,kmeans_gs,KMeans-GS,0.3711558886017269,5.0,0.005794971504681334,0.0010252322445307418,0.005185405160176372
+K <= 6,"dermatology, musk, satimage, synthetic_control, vehicle, wdbc, wine_quality",7,kmeanspp,k-means++,0.3653609170970456,5.428571428571429,0.0,-0.004769739260150593,-0.0006095663445049626
+K <= 6,"dermatology, musk, satimage, synthetic_control, vehicle, wdbc, wine_quality",7,kmeans,K-means (random),0.37013065635719616,3.857142857142857,0.004769739260150593,0.0,0.0041601729156456315
+K <= 6,"dermatology, musk, satimage, synthetic_control, vehicle, wdbc, wine_quality",7,kmeans_gs_g,KMeans-GS-G,0.36597048344155053,5.714285714285714,0.0006095663445049626,-0.0041601729156456315,0.0
+K <= 6,"dermatology, musk, satimage, synthetic_control, vehicle, wdbc, wine_quality",7,mbkmeans,MiniBatchKMeans,0.37009052976293283,4.0,0.004729612665887228,-4.0126594263365156e-05,0.004120046321382266
+K <= 6,"dermatology, musk, satimage, synthetic_control, vehicle, wdbc, wine_quality",7,kmeans_par,k-means∥,0.3697987864036139,4.428571428571429,0.004437869306568286,-0.0003318699535823079,0.0038283029620633235
+K <= 6,"dermatology, musk, satimage, synthetic_control, vehicle, wdbc, wine_quality",7,afkmc2,AFK-MC²,0.36553158055756424,4.714285714285714,0.0001706634605187315,-0.004599075799631863,-0.0004389028839862314
+K <= 6,"dermatology, musk, satimage, synthetic_control, vehicle, wdbc, wine_quality",7,birch,BIRCH,0.2902400760328917,6.857142857142857,-0.07512084106415387,-0.07989058032430447,-0.07573040740865886
+K <= 6,"dermatology, musk, satimage, synthetic_control, vehicle, wdbc, wine_quality",7,gmm,Gaussian mixture,0.3600037972036061,6.0,-0.00535711989343949,-0.010126859153590085,-0.005966686237944454
+K <= 6,"dermatology, musk, satimage, synthetic_control, vehicle, wdbc, wine_quality",7,dbscan,DBSCAN,0.1325209049061796,9.0,-0.23284001219086597,-0.23760975145101657,-0.233449578535371
+7 <= K <= 19,"pendigits, segment, yeast",3,kmeans_gs,KMeans-GS,0.40653667709806257,2.3333333333333335,0.005950888143807158,0.01476738304437078,0.016988363944258077
+7 <= K <= 19,"pendigits, segment, yeast",3,kmeanspp,k-means++,0.40058578895425545,3.6666666666666665,0.0,0.008816494900563623,0.011037475800450919
+7 <= K <= 19,"pendigits, segment, yeast",3,kmeans,K-means (random),0.3917692940536918,5.666666666666667,-0.008816494900563623,0.0,0.002220980899887296
+7 <= K <= 19,"pendigits, segment, yeast",3,kmeans_gs_g,KMeans-GS-G,0.3895483131538045,4.666666666666667,-0.011037475800450919,-0.002220980899887296,0.0
+7 <= K <= 19,"pendigits, segment, yeast",3,mbkmeans,MiniBatchKMeans,0.3891313624400427,5.666666666666667,-0.011454426514212726,-0.0026379316136491047,-0.0004169507137618082
+7 <= K <= 19,"pendigits, segment, yeast",3,kmeans_par,k-means∥,0.3543007274243813,4.333333333333333,-0.04628506152987406,-0.03746856662931044,-0.03524758572942314
+7 <= K <= 19,"pendigits, segment, yeast",3,afkmc2,AFK-MC²,0.3986566319809794,3.0,-0.0019291569732760399,0.006887337927287583,0.00910831882717488
+7 <= K <= 19,"pendigits, segment, yeast",3,birch,BIRCH,0.3324253252376293,8.666666666666666,-0.06816046371662611,-0.05934396881606249,-0.0571229879161752
+7 <= K <= 19,"pendigits, segment, yeast",3,gmm,Gaussian mixture,0.3154856291806251,8.0,-0.08510015977363034,-0.07628366487306672,-0.07406268397317942
+7 <= K <= 19,"pendigits, segment, yeast",3,dbscan,DBSCAN,0.25498156348518564,9.0,-0.14560422546906973,-0.13678773056850613,-0.1345667496686188
+K >= 20,"isolet, letter, synth_imbalanced",3,kmeans_gs,KMeans-GS,0.24081788240975902,4.666666666666667,-0.003938508308691764,0.0011838692032377501,-0.00539491915369288
+K >= 20,"isolet, letter, synth_imbalanced",3,kmeanspp,k-means++,0.24475639071845076,4.333333333333333,0.0,0.005122377511929514,-0.001456410845001116
+K >= 20,"isolet, letter, synth_imbalanced",3,kmeans,K-means (random),0.23963401320652125,5.666666666666667,-0.005122377511929514,0.0,-0.00657878835693063
+K >= 20,"isolet, letter, synth_imbalanced",3,kmeans_gs_g,KMeans-GS-G,0.2462128015634519,6.333333333333333,0.001456410845001116,0.00657878835693063,0.0
+K >= 20,"isolet, letter, synth_imbalanced",3,mbkmeans,MiniBatchKMeans,0.24861127979560216,5.666666666666667,0.003854889077151369,0.008977266589080884,0.002398478232150253
+K >= 20,"isolet, letter, synth_imbalanced",3,kmeans_par,k-means∥,0.24066895128387408,5.0,-0.0040874394345766785,0.0010349380773528362,-0.005543850279577794
+K >= 20,"isolet, letter, synth_imbalanced",3,afkmc2,AFK-MC²,0.2395978014111663,6.666666666666667,-0.005158589307284457,-3.62117953549429e-05,-0.006615000152285573
+K >= 20,"isolet, letter, synth_imbalanced",3,birch,BIRCH,0.46973681649723953,5.666666666666667,0.22498042577878877,0.23010280329071828,0.22352401493378762
+K >= 20,"isolet, letter, synth_imbalanced",3,gmm,Gaussian mixture,0.27498289223747924,4.0,0.03022650151902841,0.03534887903095792,0.028770090674027294
+K >= 20,"isolet, letter, synth_imbalanced",3,dbscan,DBSCAN,0.33364619503021853,7.0,0.08888980431176778,0.09401218182369726,0.08743339346676664
+d <= 50,"dermatology, letter, pendigits, satimage, segment, vehicle, wdbc, wine_quality, yeast",9,kmeans_gs,KMeans-GS,0.37367864881326274,3.888888888888889,0.004150409087180806,0.002503934639617076,0.006524956905157526
+d <= 50,"dermatology, letter, pendigits, satimage, segment, vehicle, wdbc, wine_quality, yeast",9,kmeanspp,k-means++,0.36952823972608195,4.777777777777778,0.0,-0.0016464744475637296,0.0023745478179767205
+d <= 50,"dermatology, letter, pendigits, satimage, segment, vehicle, wdbc, wine_quality, yeast",9,kmeans,K-means (random),0.37117471417364567,4.111111111111111,0.0016464744475637296,0.0,0.00402102226554045
+d <= 50,"dermatology, letter, pendigits, satimage, segment, vehicle, wdbc, wine_quality, yeast",9,kmeans_gs_g,KMeans-GS-G,0.36715369190810526,5.222222222222222,-0.0023745478179767205,-0.00402102226554045,0.0
+d <= 50,"dermatology, letter, pendigits, satimage, segment, vehicle, wdbc, wine_quality, yeast",9,mbkmeans,MiniBatchKMeans,0.3678644250399865,5.0,-0.0016638146860953622,-0.0033102891336590917,0.0007107331318813581
+d <= 50,"dermatology, letter, pendigits, satimage, segment, vehicle, wdbc, wine_quality, yeast",9,kmeans_par,k-means∥,0.35420848026039214,4.444444444444445,-0.015319759465689817,-0.016966233913253543,-0.012945211647713098
+d <= 50,"dermatology, letter, pendigits, satimage, segment, vehicle, wdbc, wine_quality, yeast",9,afkmc2,AFK-MC²,0.3676604508675354,4.666666666666667,-0.00186778885854655,-0.0035142633061102796,0.0005067589594301702
+d <= 50,"dermatology, letter, pendigits, satimage, segment, vehicle, wdbc, wine_quality, yeast",9,birch,BIRCH,0.3097656585315435,6.777777777777778,-0.059762581194538464,-0.061409055642102195,-0.05738803337656176
+d <= 50,"dermatology, letter, pendigits, satimage, segment, vehicle, wdbc, wine_quality, yeast",9,gmm,Gaussian mixture,0.3366318688675953,6.444444444444445,-0.03289637085848665,-0.034542845306050375,-0.030521823040509925
+d <= 50,"dermatology, letter, pendigits, satimage, segment, vehicle, wdbc, wine_quality, yeast",9,dbscan,DBSCAN,0.14798583199945547,9.666666666666666,-0.22154240772662645,-0.2231888821741902,-0.21916785990864973
+d > 50,"isolet, musk, synth_imbalanced, synthetic_control",4,kmeans_gs,KMeans-GS,0.29426176485404715,5.25,0.0023120645633720686,0.008123742674496774,0.0030883895866281146
+d > 50,"isolet, musk, synth_imbalanced, synthetic_control",4,kmeanspp,k-means++,0.2919497002906751,4.75,0.0,0.005811678111124706,0.0007763250232560477
+d > 50,"isolet, musk, synth_imbalanced, synthetic_control",4,kmeans,K-means (random),0.28613802217955037,6.0,-0.005811678111124706,0.0,-0.005035353087868658
+d > 50,"isolet, musk, synth_imbalanced, synthetic_control",4,kmeans_gs_g,KMeans-GS-G,0.29117337526741904,6.5,-0.0007763250232560477,0.005035353087868658,0.0
+d > 50,"isolet, musk, synth_imbalanced, synthetic_control",4,mbkmeans,MiniBatchKMeans,0.29827045242189626,4.25,0.006320752131221196,0.012132430242345902,0.007097077154477243
+d > 50,"isolet, musk, synth_imbalanced, synthetic_control",4,kmeans_par,k-means∥,0.2964060546516336,4.75,0.0044563543609585365,0.010268032472083242,0.005232679384214584
+d > 50,"isolet, musk, synth_imbalanced, synthetic_control",4,afkmc2,AFK-MC²,0.2911350765678922,5.0,-0.0008146237227828548,0.00499705438834185,-3.829869952680842e-05
+d > 50,"isolet, musk, synth_imbalanced, synthetic_control",4,birch,BIRCH,0.4125690076627393,7.5,0.12061930737206425,0.12643098548318896,0.12139563239532031
+d > 50,"isolet, musk, synth_imbalanced, synthetic_control",4,gmm,Gaussian mixture,0.31543633121779946,5.0,0.023486630927124413,0.029298309038249114,0.024262955950380458
+d > 50,"isolet, musk, synth_imbalanced, synthetic_control",4,dbscan,DBSCAN,0.34041428047359257,6.0,0.04846458018291755,0.05427625829404224,0.04924090520617358
+"N < 1,000","dermatology, synthetic_control, vehicle, wdbc",4,kmeans_gs,KMeans-GS,0.49554691852774546,7.0,-0.002989287881858097,-0.00785945730372015,-0.0055256976636852
+"N < 1,000","dermatology, synthetic_control, vehicle, wdbc",4,kmeanspp,k-means++,0.4985362064096035,5.75,0.0,-0.004870169421862053,-0.002536409781827103
+"N < 1,000","dermatology, synthetic_control, vehicle, wdbc",4,kmeans,K-means (random),0.5034063758314655,4.75,0.004870169421862053,0.0,0.00233375964003495
+"N < 1,000","dermatology, synthetic_control, vehicle, wdbc",4,kmeans_gs_g,KMeans-GS-G,0.5010726161914305,6.25,0.002536409781827103,-0.00233375964003495,0.0
+"N < 1,000","dermatology, synthetic_control, vehicle, wdbc",4,mbkmeans,MiniBatchKMeans,0.5087056358384148,2.5,0.010169429428811268,0.005299260006949216,0.0076330196469841655
+"N < 1,000","dermatology, synthetic_control, vehicle, wdbc",4,kmeans_par,k-means∥,0.5043496132664518,4.0,0.005813406856848332,0.0009432374349862792,0.003276997075021229
+"N < 1,000","dermatology, synthetic_control, vehicle, wdbc",4,afkmc2,AFK-MC²,0.5036707278062038,5.25,0.0051345213966003216,0.00026435197473826874,0.0025981116147732186
+"N < 1,000","dermatology, synthetic_control, vehicle, wdbc",4,birch,BIRCH,0.402051031415801,5.25,-0.09648517499380249,-0.10135534441566454,-0.0990215847756296
+"N < 1,000","dermatology, synthetic_control, vehicle, wdbc",4,gmm,Gaussian mixture,0.5048045011910107,4.25,0.006268294781407252,0.0013981253595451992,0.003731884999580149
+"N < 1,000","dermatology, synthetic_control, vehicle, wdbc",4,dbscan,DBSCAN,0.20410985752684263,10.0,-0.2944263488827608,-0.2992965183046229,-0.29696275866458793
+"N >= 1,000","isolet, letter, musk, pendigits, satimage, segment, synth_imbalanced, wine_quality, yeast",9,kmeans_gs,KMeans-GS,0.2842185805138413,3.111111111111111,0.006506565729505325,0.009607579074380153,0.010353440127518999
+"N >= 1,000","isolet, letter, musk, pendigits, satimage, segment, synth_imbalanced, wine_quality, yeast",9,kmeanspp,k-means++,0.27771201478433594,4.333333333333333,0.0,0.0031010133448748298,0.003846874398013676
+"N >= 1,000","isolet, letter, musk, pendigits, satimage, segment, synth_imbalanced, wine_quality, yeast",9,kmeans,K-means (random),0.27461100143946116,4.666666666666667,-0.0031010133448748298,0.0,0.0007458610531388464
+"N >= 1,000","isolet, letter, musk, pendigits, satimage, segment, synth_imbalanced, wine_quality, yeast",9,kmeans_gs_g,KMeans-GS-G,0.27386514038632226,5.333333333333333,-0.003846874398013676,-0.0007458610531388464,0.0
+"N >= 1,000","isolet, letter, musk, pendigits, satimage, segment, synth_imbalanced, wine_quality, yeast",9,mbkmeans,MiniBatchKMeans,0.27433767685486726,5.777777777777778,-0.0033743379294687275,-0.00027332458459389795,0.0004725364685449481
+"N >= 1,000","isolet, letter, musk, pendigits, satimage, segment, synth_imbalanced, wine_quality, yeast",9,kmeans_par,k-means∥,0.26178912087602846,4.777777777777778,-0.015922893908307506,-0.012821880563432676,-0.012076019510293827
+"N >= 1,000","isolet, letter, musk, pendigits, satimage, segment, synth_imbalanced, wine_quality, yeast",9,afkmc2,AFK-MC²,0.27320016142828574,4.555555555555555,-0.004511853356050184,-0.001410840011175355,-0.0006649789580365086
+"N >= 1,000","isolet, letter, musk, pendigits, satimage, segment, synth_imbalanced, wine_quality, yeast",9,birch,BIRCH,0.31444031464129385,7.777777777777778,0.036728299856957865,0.03982931320183268,0.04057517425497153
+"N >= 1,000","isolet, letter, musk, pendigits, satimage, segment, synth_imbalanced, wine_quality, yeast",9,gmm,Gaussian mixture,0.2524682377683903,6.777777777777778,-0.02524377701594569,-0.02214276367107086,-0.021396902617932017
+"N >= 1,000","isolet, letter, musk, pendigits, satimage, segment, synth_imbalanced, wine_quality, yeast",9,dbscan,DBSCAN,0.20856557553134436,7.888888888888889,-0.06914643925299162,-0.0660454259081168,-0.06529956485497794

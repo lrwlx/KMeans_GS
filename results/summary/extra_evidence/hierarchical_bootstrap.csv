@@ -1,0 +1,2 @@
+mean_dataset_difference,bootstrap_ci_low,bootstrap_ci_high,probability_positive,probability_above_0_005,probability_below_minus_0_005,dataset_wilcoxon_p
+0.0035847646183165783,-0.00397479990884041,0.012040796810001487,0.80634,0.35014,0.01198,0.587890625
