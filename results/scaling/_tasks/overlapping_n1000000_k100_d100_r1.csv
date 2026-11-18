@@ -1,0 +1,9 @@
+mechanism,N,K,d,rep,method,seed_s,trials,fallbacks,status
+overlapping,1000000,100,100,1,kmeans,0.0002359990030527115,,0,ok
+overlapping,1000000,100,100,1,kmeanspp,31.851868654601276,,0,ok
+overlapping,1000000,100,100,1,kmeanspp_greedy,38.35014412924647,,0,ok
+overlapping,1000000,100,100,1,kmeanspp_sklearn,11.50665779132396,,0,ok
+overlapping,1000000,100,100,1,kmeans_par,13.384411668404937,,0,ok
+overlapping,1000000,100,100,1,afkmc2,0.005697949789464474,4.161616161616162,0,ok
+overlapping,1000000,100,100,1,kmeans_gs,0.004327627830207348,1.0,0,ok
+overlapping,1000000,100,100,1,kmeans_gs_g,0.006659201346337795,1.0,0,ok

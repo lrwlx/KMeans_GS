@@ -1,0 +1,97 @@
+subgroup,n_datasets,datasets,method,label,mean_ari,mean_rank
+all,16,"circles,dermatology,har,isolet,letter,moons,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeans,K-means (random),0.33341384580100614,6.0625
+all,16,"circles,dermatology,har,isolet,letter,moons,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeanspp,k-means++,0.3326154148473789,5.71875
+all,16,"circles,dermatology,har,isolet,letter,moons,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeanspp_greedy,k-means++ (greedy),0.34041307944504806,4.8125
+all,16,"circles,dermatology,har,isolet,letter,moons,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeanspp_sklearn,k-means++ (compiled),0.33169602944898524,6.125
+all,16,"circles,dermatology,har,isolet,letter,moons,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeans_par,k-means||,0.3232481554812291,6.375
+all,16,"circles,dermatology,har,isolet,letter,moons,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",afkmc2,AFK-MC2,0.33125653174814607,6.46875
+all,16,"circles,dermatology,har,isolet,letter,moons,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeans_gs,KMeans-GS,0.3377643688639068,4.625
+all,16,"circles,dermatology,har,isolet,letter,moons,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeans_gs_g,KMeans-GS-G,0.33026877003925326,7.0
+all,16,"circles,dermatology,har,isolet,letter,moons,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",mbkmeans,MiniBatchKMeans,0.3349090461170987,5.875
+all,16,"circles,dermatology,har,isolet,letter,moons,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",birch,BIRCH,0.331976578435095,7.625
+all,16,"circles,dermatology,har,isolet,letter,moons,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",gmm,Gaussian mixture,0.3105365496862288,7.4375
+all,16,"circles,dermatology,har,isolet,letter,moons,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",dbscan,DBSCAN,0.2631831325200049,9.875
+convex,14,"dermatology,har,isolet,letter,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeans,K-means (random),0.3466300273601065,5.857142857142857
+convex,14,"dermatology,har,isolet,letter,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeanspp,k-means++,0.3457427373848905,5.571428571428571
+convex,14,"dermatology,har,isolet,letter,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeanspp_greedy,k-means++ (greedy),0.3546483771939629,4.285714285714286
+convex,14,"dermatology,har,isolet,letter,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeanspp_sklearn,k-means++ (compiled),0.3446758331369084,6.0
+convex,14,"dermatology,har,isolet,letter,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeans_par,k-means||,0.3350442615666874,6.142857142857143
+convex,14,"dermatology,har,isolet,letter,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",afkmc2,AFK-MC2,0.34419040015301233,6.0
+convex,14,"dermatology,har,isolet,letter,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeans_gs,KMeans-GS,0.3516044562752358,4.5
+convex,14,"dermatology,har,isolet,letter,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeans_gs_g,KMeans-GS-G,0.3430413746819633,7.0
+convex,14,"dermatology,har,isolet,letter,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",mbkmeans,MiniBatchKMeans,0.34852039534589807,5.642857142857143
+convex,14,"dermatology,har,isolet,letter,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",birch,BIRCH,0.34064332550668935,8.428571428571429
+convex,14,"dermatology,har,isolet,letter,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",gmm,Gaussian mixture,0.3244218706490254,7.428571428571429
+convex,14,"dermatology,har,isolet,letter,musk,pendigits,satimage,segment,synth_imbalanced,synthetic_control,vehicle,wdbc,wine_quality,yeast",dbscan,DBSCAN,0.16429176454948122,11.142857142857142
+non-convex,2,"circles,moons",kmeans,K-means (random),0.24090057488730343,7.5
+non-convex,2,"circles,moons",kmeanspp,k-means++,0.24072415708479739,6.75
+non-convex,2,"circles,moons",kmeanspp_greedy,k-means++ (greedy),0.2407659952026435,8.5
+non-convex,2,"circles,moons",kmeanspp_sklearn,k-means++ (compiled),0.24083740363352282,7.0
+non-convex,2,"circles,moons",kmeans_par,k-means||,0.24067541288302102,8.0
+non-convex,2,"circles,moons",afkmc2,AFK-MC2,0.24071945291408192,9.75
+non-convex,2,"circles,moons",kmeans_gs,KMeans-GS,0.2408837569846037,5.5
+non-convex,2,"circles,moons",kmeans_gs_g,KMeans-GS-G,0.24086053754028275,7.0
+non-convex,2,"circles,moons",mbkmeans,MiniBatchKMeans,0.2396296015155027,7.5
+non-convex,2,"circles,moons",birch,BIRCH,0.27130934893393427,2.0
+non-convex,2,"circles,moons",gmm,Gaussian mixture,0.21333930294665288,7.5
+non-convex,2,"circles,moons",dbscan,DBSCAN,0.955422708313671,1.0
+K<=6,10,"circles,dermatology,har,moons,musk,satimage,synthetic_control,vehicle,wdbc,wine_quality",kmeans,K-means (random),0.3440411611035459,5.4
+K<=6,10,"circles,dermatology,har,moons,musk,satimage,synthetic_control,vehicle,wdbc,wine_quality",kmeanspp,k-means++,0.33858200985399434,6.25
+K<=6,10,"circles,dermatology,har,moons,musk,satimage,synthetic_control,vehicle,wdbc,wine_quality",kmeanspp_greedy,k-means++ (greedy),0.34690030152108625,5.6
+K<=6,10,"circles,dermatology,har,moons,musk,satimage,synthetic_control,vehicle,wdbc,wine_quality",kmeanspp_sklearn,k-means++ (compiled),0.34078351050372646,6.4
+K<=6,10,"circles,dermatology,har,moons,musk,satimage,synthetic_control,vehicle,wdbc,wine_quality",kmeans_par,k-means||,0.33870614515748987,6.7
+K<=6,10,"circles,dermatology,har,moons,musk,satimage,synthetic_control,vehicle,wdbc,wine_quality",afkmc2,AFK-MC2,0.33853412077939,6.95
+K<=6,10,"circles,dermatology,har,moons,musk,satimage,synthetic_control,vehicle,wdbc,wine_quality",kmeans_gs,KMeans-GS,0.34935723116596457,4.1
+K<=6,10,"circles,dermatology,har,moons,musk,satimage,synthetic_control,vehicle,wdbc,wine_quality",kmeans_gs_g,KMeans-GS-G,0.3361796118729598,7.1
+K<=6,10,"circles,dermatology,har,moons,musk,satimage,synthetic_control,vehicle,wdbc,wine_quality",mbkmeans,MiniBatchKMeans,0.3445316811166645,5.2
+K<=6,10,"circles,dermatology,har,moons,musk,satimage,synthetic_control,vehicle,wdbc,wine_quality",birch,BIRCH,0.29051388297569136,7.0
+K<=6,10,"circles,dermatology,har,moons,musk,satimage,synthetic_control,vehicle,wdbc,wine_quality",gmm,Gaussian mixture,0.31971792307253477,7.6
+K<=6,10,"circles,dermatology,har,moons,musk,satimage,synthetic_control,vehicle,wdbc,wine_quality",dbscan,DBSCAN,0.2934513849994759,9.7
+7<=K<=19,3,"pendigits,segment,yeast",kmeans,K-means (random),0.3917692940536918,7.0
+7<=K<=19,3,"pendigits,segment,yeast",kmeanspp,k-means++,0.40058578895425545,4.0
+7<=K<=19,3,"pendigits,segment,yeast",kmeanspp_greedy,k-means++ (greedy),0.40874518189555986,2.6666666666666665
+7<=K<=19,3,"pendigits,segment,yeast",kmeanspp_sklearn,k-means++ (compiled),0.39315593993792275,5.333333333333333
+7<=K<=19,3,"pendigits,segment,yeast",kmeans_par,k-means||,0.3543007274243813,5.333333333333333
+7<=K<=19,3,"pendigits,segment,yeast",afkmc2,AFK-MC2,0.3986566319809794,3.6666666666666665
+7<=K<=19,3,"pendigits,segment,yeast",kmeans_gs,KMeans-GS,0.3954366399162184,5.333333333333333
+7<=K<=19,3,"pendigits,segment,yeast",kmeans_gs_g,KMeans-GS-G,0.3944299248879317,6.0
+7<=K<=19,3,"pendigits,segment,yeast",mbkmeans,MiniBatchKMeans,0.3891313624400427,6.666666666666667
+7<=K<=19,3,"pendigits,segment,yeast",birch,BIRCH,0.3324253252376293,10.333333333333334
+7<=K<=19,3,"pendigits,segment,yeast",gmm,Gaussian mixture,0.3154856291806251,9.666666666666666
+7<=K<=19,3,"pendigits,segment,yeast",dbscan,DBSCAN,0.08371977786933017,12.0
+K>=20,3,"isolet,letter,synth_imbalanced",kmeans,K-means (random),0.23963401320652125,7.333333333333333
+K>=20,3,"isolet,letter,synth_imbalanced",kmeanspp,k-means++,0.24475639071845076,5.666666666666667
+K>=20,3,"isolet,letter,synth_imbalanced",kmeanspp_greedy,k-means++ (greedy),0.25045690340774235,4.333333333333333
+K>=20,3,"isolet,letter,synth_imbalanced",kmeanspp_sklearn,k-means++ (compiled),0.23994451544424353,6.0
+K>=20,3,"isolet,letter,synth_imbalanced",kmeans_par,k-means||,0.24066895128387408,6.333333333333333
+K>=20,3,"isolet,letter,synth_imbalanced",afkmc2,AFK-MC2,0.2395978014111663,7.666666666666667
+K>=20,3,"isolet,letter,synth_imbalanced",kmeans_gs,KMeans-GS,0.24144922347140285,5.666666666666667
+K>=20,3,"isolet,letter,synth_imbalanced",kmeans_gs_g,KMeans-GS-G,0.24640480907822007,7.666666666666667
+K>=20,3,"isolet,letter,synth_imbalanced",mbkmeans,MiniBatchKMeans,0.24861127979560216,7.333333333333333
+K>=20,3,"isolet,letter,synth_imbalanced",birch,BIRCH,0.46973681649723953,7.0
+K>=20,3,"isolet,letter,synth_imbalanced",gmm,Gaussian mixture,0.27498289223747924,4.666666666666667
+K>=20,3,"isolet,letter,synth_imbalanced",dbscan,DBSCAN,0.34175231223910973,8.333333333333334
+N<10^4,12,"circles,dermatology,isolet,moons,musk,satimage,segment,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeans,K-means (random),0.3463129814234474,5.583333333333333
+N<10^4,12,"circles,dermatology,isolet,moons,musk,satimage,segment,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeanspp,k-means++,0.34541870544757786,5.458333333333333
+N<10^4,12,"circles,dermatology,isolet,moons,musk,satimage,segment,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeanspp_greedy,k-means++ (greedy),0.35186753057151016,4.916666666666667
+N<10^4,12,"circles,dermatology,isolet,moons,musk,satimage,segment,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeanspp_sklearn,k-means++ (compiled),0.3437059230122908,6.166666666666667
+N<10^4,12,"circles,dermatology,isolet,moons,musk,satimage,segment,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeans_par,k-means||,0.3342193629571916,6.333333333333333
+N<10^4,12,"circles,dermatology,isolet,moons,musk,satimage,segment,synthetic_control,vehicle,wdbc,wine_quality,yeast",afkmc2,AFK-MC2,0.3424194176291058,6.541666666666667
+N<10^4,12,"circles,dermatology,isolet,moons,musk,satimage,segment,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeans_gs,KMeans-GS,0.3484411535786256,4.916666666666667
+N<10^4,12,"circles,dermatology,isolet,moons,musk,satimage,segment,synthetic_control,vehicle,wdbc,wine_quality,yeast",kmeans_gs_g,KMeans-GS-G,0.34225142607145725,6.833333333333333
+N<10^4,12,"circles,dermatology,isolet,moons,musk,satimage,segment,synthetic_control,vehicle,wdbc,wine_quality,yeast",mbkmeans,MiniBatchKMeans,0.3465468476873339,5.5
+N<10^4,12,"circles,dermatology,isolet,moons,musk,satimage,segment,synthetic_control,vehicle,wdbc,wine_quality,yeast",birch,BIRCH,0.2809487919553375,7.75
+N<10^4,12,"circles,dermatology,isolet,moons,musk,satimage,segment,synthetic_control,vehicle,wdbc,wine_quality,yeast",gmm,Gaussian mixture,0.3121427104471538,7.916666666666667
+N<10^4,12,"circles,dermatology,isolet,moons,musk,satimage,segment,synthetic_control,vehicle,wdbc,wine_quality,yeast",dbscan,DBSCAN,0.26547150032985484,10.083333333333334
+N>=10^4,4,"har,letter,pendigits,synth_imbalanced",kmeans,K-means (random),0.2947164389336822,7.5
+N>=10^4,4,"har,letter,pendigits,synth_imbalanced",kmeanspp,k-means++,0.2942055430467819,6.5
+N>=10^4,4,"har,letter,pendigits,synth_imbalanced",kmeanspp_greedy,k-means++ (greedy),0.3060497260656618,4.5
+N>=10^4,4,"har,letter,pendigits,synth_imbalanced",kmeanspp_sklearn,k-means++ (compiled),0.2956663487590684,6.0
+N>=10^4,4,"har,letter,pendigits,synth_imbalanced",kmeans_par,k-means||,0.2903345330533415,6.5
+N>=10^4,4,"har,letter,pendigits,synth_imbalanced",afkmc2,AFK-MC2,0.29776787410526656,6.25
+N>=10^4,4,"har,letter,pendigits,synth_imbalanced",kmeans_gs,KMeans-GS,0.3057340147197504,3.75
+N>=10^4,4,"har,letter,pendigits,synth_imbalanced",kmeans_gs_g,KMeans-GS-G,0.2943208019426416,7.5
+N>=10^4,4,"har,letter,pendigits,synth_imbalanced",mbkmeans,MiniBatchKMeans,0.2999956414063928,7.0
+N>=10^4,4,"har,letter,pendigits,synth_imbalanced",birch,BIRCH,0.4850599378743675,7.25
+N>=10^4,4,"har,letter,pendigits,synth_imbalanced",gmm,Gaussian mixture,0.3057180674034539,6.0
+N>=10^4,4,"har,letter,pendigits,synth_imbalanced",dbscan,DBSCAN,0.25631802909045515,9.25

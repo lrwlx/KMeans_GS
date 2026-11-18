@@ -1,0 +1,27 @@
+{
+  "datasets": [
+    "mnist"
+  ],
+  "methods": [
+    "kmeans",
+    "kmeanspp",
+    "kmeanspp_greedy",
+    "kmeanspp_sklearn",
+    "kmeans_par",
+    "afkmc2",
+    "kmeans_gs",
+    "kmeans_gs_g",
+    "mbkmeans",
+    "sklearn1",
+    "sklearn10"
+  ],
+  "repeats": 20,
+  "tol": 0.0001,
+  "max_iter": 300,
+  "scale_mode": "coord",
+  "n_coords": 128,
+  "n_points": 512,
+  "alpha": 0.5,
+  "decay": "inv_sqrt",
+  "seed_base": 42
+}

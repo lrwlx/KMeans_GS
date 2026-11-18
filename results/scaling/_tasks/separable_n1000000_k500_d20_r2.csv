@@ -1,0 +1,9 @@
+mechanism,N,K,d,rep,method,seed_s,trials,fallbacks,status
+separable,1000000,500,20,2,kmeans,0.00014486443251371384,,0,ok
+separable,1000000,500,20,2,kmeanspp,15.927121490240097,,0,ok
+separable,1000000,500,20,2,kmeanspp_greedy,44.918369725346565,,0,ok
+separable,1000000,500,20,2,kmeanspp_sklearn,6.9551110714674,,0,ok
+separable,1000000,500,20,2,kmeans_par,31.728860220871866,,0,ok
+separable,1000000,500,20,2,afkmc2,0.09227521251887083,14.79559118236473,7,ok
+separable,1000000,500,20,2,kmeans_gs,0.00982094556093216,1.0,0,ok
+separable,1000000,500,20,2,kmeans_gs_g,0.03204764984548092,1.0,0,ok

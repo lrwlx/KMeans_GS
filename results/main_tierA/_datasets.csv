@@ -1,0 +1,17 @@
+dataset,tier,group,N,d,K,source
+dermatology,A,uci,366,34,6,OpenML data_id=35
+wine_quality,A,uci,1599,11,6,OpenML data_id=40691
+wdbc,A,uci,569,30,2,OpenML data_id=1510
+synthetic_control,A,uci,600,60,6,OpenML data_id=377
+segment,A,uci,2310,19,7,OpenML data_id=36
+yeast,A,uci,1484,8,10,OpenML data_id=181
+vehicle,A,uci,846,18,4,OpenML data_id=54
+satimage,A,uci,6430,36,6,OpenML data_id=182
+pendigits,A,uci,10992,16,10,OpenML data_id=32
+letter,A,uci,20000,16,26,OpenML data_id=6
+musk,A,uci,6598,166,2,OpenML data_id=1116
+isolet,A,uci,7797,617,26,OpenML data_id=300
+har,A,uci,10299,561,6,OpenML data_id=1478
+circles,A,geometry,3000,2,2,synthetic:circles
+moons,A,geometry,3000,2,2,synthetic:moons
+synth_imbalanced,A,synth,15000,100,50,synthetic:imbalanced

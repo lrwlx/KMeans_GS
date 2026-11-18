@@ -4,3 +4,5 @@ __pycache__/
 cache/
 data_cache/
 *.log
+
+.pytest_cache/

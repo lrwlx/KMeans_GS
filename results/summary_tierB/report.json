@@ -1,0 +1,92 @@
+{
+  "datasets": [
+    "covertype",
+    "mnist"
+  ],
+  "methods": [
+    "kmeans",
+    "kmeanspp",
+    "kmeanspp_greedy",
+    "kmeanspp_sklearn",
+    "kmeans_par",
+    "afkmc2",
+    "kmeans_gs",
+    "kmeans_gs_g",
+    "mbkmeans",
+    "birch",
+    "gmm",
+    "sklearn1",
+    "sklearn10"
+  ],
+  "runs": 348,
+  "friedman": {
+    "n_datasets": 2.0,
+    "n_methods": 13.0,
+    "statistic": NaN,
+    "p_value": NaN,
+    "kendall_w": NaN,
+    "nemenyi_cd": 12.902281316366757
+  },
+  "mean_ari": {
+    "kmeans": 0.19190356141496925,
+    "kmeanspp": 0.17880841868174496,
+    "kmeanspp_greedy": 0.19637740234089995,
+    "kmeanspp_sklearn": 0.18335671594999953,
+    "kmeans_par": 0.0906330687847679,
+    "afkmc2": 0.19014038438692987,
+    "kmeans_gs": 0.18898874221535045,
+    "kmeans_gs_g": 0.1951129558550934,
+    "mbkmeans": 0.1630370365061919,
+    "birch": 0.03900962409187157,
+    "gmm": 0.0738280673234459,
+    "sklearn1": 0.19433027903870762,
+    "sklearn10": 0.19460042948563672
+  },
+  "mean_rank": {
+    "kmeans": 5.5,
+    "kmeanspp": 9.5,
+    "kmeanspp_greedy": 3.0,
+    "kmeanspp_sklearn": 7.5,
+    "kmeans_par": 12.0,
+    "afkmc2": 5.0,
+    "kmeans_gs": 4.5,
+    "kmeans_gs_g": 3.5,
+    "mbkmeans": 10.5,
+    "birch": 12.0,
+    "gmm": 5.0,
+    "sklearn1": 4.0,
+    "sklearn10": 5.0
+  },
+  "seed_geomean": {
+    "kmeans": 0.0002157982906721259,
+    "kmeanspp": 0.735880665814997,
+    "kmeanspp_greedy": 0.8373139597252989,
+    "kmeanspp_sklearn": 0.37280264647374356,
+    "kmeans_par": 0.909263913486325,
+    "afkmc2": 0.0013882599609720057,
+    "kmeans_gs": 0.0019070817633800752,
+    "kmeans_gs_g": 0.0014812331473509069,
+    "mbkmeans": NaN,
+    "birch": NaN,
+    "gmm": NaN,
+    "sklearn1": NaN,
+    "sklearn10": NaN
+  },
+  "total_geomean": {
+    "kmeans": 11.811729162358613,
+    "kmeanspp": 10.47242993636817,
+    "kmeanspp_greedy": 11.043948336626903,
+    "kmeanspp_sklearn": 10.654529528343984,
+    "kmeans_par": 9.182682319362833,
+    "afkmc2": 10.940262140582847,
+    "kmeans_gs": 11.065850069828215,
+    "kmeans_gs_g": 7.66433020545656,
+    "mbkmeans": 0.3196396542403927,
+    "birch": 19.613776709651578,
+    "gmm": 3.5297530530020595,
+    "sklearn1": 4.0790433332962515,
+    "sklearn10": 37.1808404214985
+  },
+  "seed_ratio_median": 394.0297650945772,
+  "seed_ratio_below_one": 0
+}

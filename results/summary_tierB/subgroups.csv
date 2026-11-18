@@ -1,0 +1,53 @@
+subgroup,n_datasets,datasets,method,label,mean_ari,mean_rank
+all,2,"covertype,mnist",kmeans,K-means (random),0.19190356141496925,5.5
+all,2,"covertype,mnist",kmeanspp,k-means++,0.17880841868174496,9.5
+all,2,"covertype,mnist",kmeanspp_greedy,k-means++ (greedy),0.19637740234089995,3.0
+all,2,"covertype,mnist",kmeanspp_sklearn,k-means++ (compiled),0.18335671594999953,7.5
+all,2,"covertype,mnist",kmeans_par,k-means||,0.0906330687847679,12.0
+all,2,"covertype,mnist",afkmc2,AFK-MC2,0.19014038438692987,5.0
+all,2,"covertype,mnist",kmeans_gs,KMeans-GS,0.18898874221535045,4.5
+all,2,"covertype,mnist",kmeans_gs_g,KMeans-GS-G,0.1951129558550934,3.5
+all,2,"covertype,mnist",mbkmeans,MiniBatchKMeans,0.1630370365061919,10.5
+all,2,"covertype,mnist",birch,BIRCH,0.03900962409187157,12.0
+all,2,"covertype,mnist",gmm,Gaussian mixture,0.0738280673234459,5.0
+all,2,"covertype,mnist",sklearn1,scikit-learn KMeans (1 restart),0.19433027903870762,4.0
+all,2,"covertype,mnist",sklearn10,scikit-learn KMeans (10 restarts),0.19460042948563672,5.0
+convex,2,"covertype,mnist",kmeans,K-means (random),0.19190356141496925,5.5
+convex,2,"covertype,mnist",kmeanspp,k-means++,0.17880841868174496,9.5
+convex,2,"covertype,mnist",kmeanspp_greedy,k-means++ (greedy),0.19637740234089995,3.0
+convex,2,"covertype,mnist",kmeanspp_sklearn,k-means++ (compiled),0.18335671594999953,7.5
+convex,2,"covertype,mnist",kmeans_par,k-means||,0.0906330687847679,12.0
+convex,2,"covertype,mnist",afkmc2,AFK-MC2,0.19014038438692987,5.0
+convex,2,"covertype,mnist",kmeans_gs,KMeans-GS,0.18898874221535045,4.5
+convex,2,"covertype,mnist",kmeans_gs_g,KMeans-GS-G,0.1951129558550934,3.5
+convex,2,"covertype,mnist",mbkmeans,MiniBatchKMeans,0.1630370365061919,10.5
+convex,2,"covertype,mnist",birch,BIRCH,0.03900962409187157,12.0
+convex,2,"covertype,mnist",gmm,Gaussian mixture,0.0738280673234459,5.0
+convex,2,"covertype,mnist",sklearn1,scikit-learn KMeans (1 restart),0.19433027903870762,4.0
+convex,2,"covertype,mnist",sklearn10,scikit-learn KMeans (10 restarts),0.19460042948563672,5.0
+7<=K<=19,2,"covertype,mnist",kmeans,K-means (random),0.19190356141496925,5.5
+7<=K<=19,2,"covertype,mnist",kmeanspp,k-means++,0.17880841868174496,9.5
+7<=K<=19,2,"covertype,mnist",kmeanspp_greedy,k-means++ (greedy),0.19637740234089995,3.0
+7<=K<=19,2,"covertype,mnist",kmeanspp_sklearn,k-means++ (compiled),0.18335671594999953,7.5
+7<=K<=19,2,"covertype,mnist",kmeans_par,k-means||,0.0906330687847679,12.0
+7<=K<=19,2,"covertype,mnist",afkmc2,AFK-MC2,0.19014038438692987,5.0
+7<=K<=19,2,"covertype,mnist",kmeans_gs,KMeans-GS,0.18898874221535045,4.5
+7<=K<=19,2,"covertype,mnist",kmeans_gs_g,KMeans-GS-G,0.1951129558550934,3.5
+7<=K<=19,2,"covertype,mnist",mbkmeans,MiniBatchKMeans,0.1630370365061919,10.5
+7<=K<=19,2,"covertype,mnist",birch,BIRCH,0.03900962409187157,12.0
+7<=K<=19,2,"covertype,mnist",gmm,Gaussian mixture,0.0738280673234459,5.0
+7<=K<=19,2,"covertype,mnist",sklearn1,scikit-learn KMeans (1 restart),0.19433027903870762,4.0
+7<=K<=19,2,"covertype,mnist",sklearn10,scikit-learn KMeans (10 restarts),0.19460042948563672,5.0
+N>=10^4,2,"covertype,mnist",kmeans,K-means (random),0.19190356141496925,5.5
+N>=10^4,2,"covertype,mnist",kmeanspp,k-means++,0.17880841868174496,9.5
+N>=10^4,2,"covertype,mnist",kmeanspp_greedy,k-means++ (greedy),0.19637740234089995,3.0
+N>=10^4,2,"covertype,mnist",kmeanspp_sklearn,k-means++ (compiled),0.18335671594999953,7.5
+N>=10^4,2,"covertype,mnist",kmeans_par,k-means||,0.0906330687847679,12.0
+N>=10^4,2,"covertype,mnist",afkmc2,AFK-MC2,0.19014038438692987,5.0
+N>=10^4,2,"covertype,mnist",kmeans_gs,KMeans-GS,0.18898874221535045,4.5
+N>=10^4,2,"covertype,mnist",kmeans_gs_g,KMeans-GS-G,0.1951129558550934,3.5
+N>=10^4,2,"covertype,mnist",mbkmeans,MiniBatchKMeans,0.1630370365061919,10.5
+N>=10^4,2,"covertype,mnist",birch,BIRCH,0.03900962409187157,12.0
+N>=10^4,2,"covertype,mnist",gmm,Gaussian mixture,0.0738280673234459,5.0
+N>=10^4,2,"covertype,mnist",sklearn1,scikit-learn KMeans (1 restart),0.19433027903870762,4.0
+N>=10^4,2,"covertype,mnist",sklearn10,scikit-learn KMeans (10 restarts),0.19460042948563672,5.0

@@ -1,0 +1,27 @@
+held_out,method,label,loo_mean_ari,change
+covertype,kmeans,K-means (random),0.31246967394663194,0.12056611253166269
+covertype,kmeanspp,k-means++,0.29431721411157424,0.11550879542982928
+covertype,kmeanspp_greedy,k-means++ (greedy),0.3169479574831706,0.12057055514227066
+covertype,kmeanspp_sklearn,k-means++ (compiled),0.29685156363144266,0.11349484768144313
+covertype,kmeans_par,k-means||,0.16768983926511608,0.07705677048034817
+covertype,afkmc2,AFK-MC2,0.29449037090921876,0.10434998652228888
+covertype,kmeans_gs,KMeans-GS,0.30393441141314437,0.11494566919779392
+covertype,kmeans_gs_g,KMeans-GS-G,0.3010809640845935,0.10596800822950012
+covertype,mbkmeans,MiniBatchKMeans,0.27443632176924654,0.11139928526305465
+covertype,birch,BIRCH,,
+covertype,gmm,Gaussian mixture,,
+covertype,sklearn1,scikit-learn KMeans (1 restart),0.3171990626035586,0.12286878356485101
+covertype,sklearn10,scikit-learn KMeans (10 restarts),0.3201678082763125,0.1255673787906758
+mnist,kmeans,K-means (random),0.07133744888330658,-0.12056611253166268
+mnist,kmeanspp,k-means++,0.06329962325191565,-0.11550879542982931
+mnist,kmeanspp_greedy,k-means++ (greedy),0.07580684719862932,-0.12057055514227064
+mnist,kmeanspp_sklearn,k-means++ (compiled),0.06986186826855637,-0.11349484768144316
+mnist,kmeans_par,k-means||,0.01357629830441972,-0.07705677048034817
+mnist,afkmc2,AFK-MC2,0.08579039786464096,-0.10434998652228891
+mnist,kmeans_gs,KMeans-GS,0.07404307301755654,-0.1149456691977939
+mnist,kmeans_gs_g,KMeans-GS-G,0.08914494762559329,-0.1059680082295001
+mnist,mbkmeans,MiniBatchKMeans,0.05163775124313724,-0.11139928526305465
+mnist,birch,BIRCH,0.03900962409187157,0.0
+mnist,gmm,Gaussian mixture,0.0738280673234459,0.0
+mnist,sklearn1,scikit-learn KMeans (1 restart),0.0714614954738566,-0.12286878356485101
+mnist,sklearn10,scikit-learn KMeans (10 restarts),0.06903305069496093,-0.12556737879067578
